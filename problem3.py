@@ -26,7 +26,7 @@ def main():
     print(f"\n{'SUMMARY':-^20}")
     
     for category, amounts in expenses.items():
-        # Using a nested loop as requested by the skill parameters
+        # Using a nested loop to sum amounts for each category
         category_total = 0
         for amt in amounts:
             category_total += amt

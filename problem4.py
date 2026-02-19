@@ -1,7 +1,5 @@
-# commission_leaderboard.py
-
 def calculate_commission(amount):
-    """Simple 10% commission calculation."""
+    # Simple 10% commission calculation.
     return amount * 0.10
 
 def main():
@@ -9,7 +7,6 @@ def main():
     sales = {"Alice": 5000, "Bob": 7000, "Carol": 3000}
     
     # 2. Process and Rank
-    # We use a list to store the results so we can sort them
     leaderboard = []
     
     for name in sales:

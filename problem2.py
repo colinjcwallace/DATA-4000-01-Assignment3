@@ -23,7 +23,7 @@ def get_survey_data():
     return responses
 
 def calculate_market_share(data_list):
-#Uses a dictionary to count items and prints the percentage share."""
+#Uses a dictionary to count items and prints the percentage share.
     counts = {}
     total = len(data_list)
     

@@ -1,5 +1,3 @@
-# stock_tracker.py
-
 def main():
     # 1. Nested Dictionary Structure
     portfolio = {
@@ -32,4 +30,4 @@ def main():
     print("-" * 50)
     print(f"{'GRAND TOTAL PORTFOLIO VALUE:':<35} ${portfolio_total:>11.2f}")
 
-    main()
+main()
