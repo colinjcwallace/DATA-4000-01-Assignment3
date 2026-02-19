@@ -1,5 +1,3 @@
-# loan_simulator.py
-
 def pay_month(current_balance, interest_rate, payment):
 #Adds interest and subtracts payment for one month.
     interest = current_balance * (interest_rate / 12)

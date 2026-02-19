@@ -1,5 +1,3 @@
-# supply_chain.py
-
 def get_total_stock(warehouse_list):
     #Aggregates inventory from all warehouses into one dictionary.
     totals = {}
