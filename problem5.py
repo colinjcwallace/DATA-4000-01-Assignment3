@@ -32,5 +32,4 @@ def main():
     print("-" * 50)
     print(f"{'GRAND TOTAL PORTFOLIO VALUE:':<35} ${portfolio_total:>11.2f}")
 
-if __name__ == "__main__":
     main()
